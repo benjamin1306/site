@@ -1,0 +1,143 @@
+ <html >  
+<head>  
+<title>skateparken</title>  
+</head>  
+<body>
+    <style> 
+      
+    
+</style> 
+<!---externe css--->
+<link rel="stylesheet" href="css foto's.css"></head>
+
+<!---navigatiebar--->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <div class="w3-bar w3-black">
+ <a href="Eindwerk home pagina.html" class="w3-bar-item w3-button">Home</a>
+ <a href="eindwerk 1ste pagina.html" class="w3-bar-item w3-button">basistricks en hun ontdekker</a>
+ <a href="eindwerk pagina stances.html" class="w3-bar-item w3-button">standen</a>
+ <a href="skateparken.html" class="w3-bar-item w3-button">skateparken</a>
+ </div>
+<br>
+<br>
+<br>
+<br>
+
+ <h1 id = "skateparken">skateparken</h1>
+<p>hier kun je enkele skateparken bekijken</p>
+
+ <ol>
+   <li> <a href=#Blaarmeersen> Blaarmeersen</a></li>
+    <li><a href=#Rampaffairz> Rampaffairz</a></li>
+    <li><a href=#luxaplast> Luxaplast </a></li>
+    <li><a href=#Trax> Trax </a></li>
+    <li><a href=#OoDeeKay> OoDeeKay </a></li>
+</ol>
+
+<main>
+<table BORDER><tr><td> <h3 id="Blaarmeersen"> Blaarmeersen</h3></tr>  </td></table>
+<p>Blaarmeersen is het grootste skatepark van België en het op 2 na grootste van europa.
+<br>Het skatepark heeft een oppervlakte van 4000 vierkante meter,dus iets kleiner dan een voetbalveld<br> 
+Het bevindt zich in Gent en heeft geen beperking van het aantal skaters dus reserveren is niet nodig.
+<br> De stad zorgt er ook voor cursussen en sportkampen.
+
+</p><img src="blaarmeersen.jpg" alt="" width="300"height="200">
+<br>
+<br>
+<!---tabel--->
+<table BORDER> <tr><td> <h3 id="Rampaffairz">Rampaffairz</tr> </h3> </td></table>
+<p>Dit skatepark is een indoor skatepark dat zich in wevelgem bevindt,<br>
+ het skatepark heeft aangepaste openingsuren voor skaters,Bmx'en en rollerschaatsen</p>
+ <br>
+ <br>
+ <table Border><tr><td> openingsdagen </td>	<td>uren</td><td>	voor wie?</td>
+  <tr><td>maandag</td>	<td>13:00 - 19:30	</td><td>(SKATEBOARD / ROLLERSKATE / BMX)</td>
+   <tr><td>dinsdag</td>	<td>13:00 - 19:30	</td><td>SKATEBOARD</td>
+    <tr><td>woensdag</td>	<td>13:00 - 19:30	</td><td>(SKATEBOARD / ROLLERSKATE / BMX)</td>
+     <tr><td>donderdag</td><td>13:00 - 22:00	</td><td>	(SKATEBOARD)</td>
+       <tr><td>vrijdag </td>	<td>13:00 - 18:00	</td><td>(SKATEBOARD / ROLLERSKATE / BMX)</td>
+         <tr><td>zaterdag</td>	<td>10:00 - 19:30	</td><td>(SKATEBOARD)</td>
+           <tr><td>zondag</td>	<td>10:00 - 14:00	</td><td>	(ROLLERSKATE)</table>
+            
+            
+            <img src="rampaffairz.jpg" alt="" width="450" height="300">
+          
+            <table BORDER><tr><td> <h3 id="luxaplast"> luxaplast</h3></tr>  </td></table>
+<p>luxaplast is een skatepark in Kortrijk het is outdoor je wel besschut zitn <br>
+   door de ring van kortrijk die boven het skatepark loopt. Het skatepark is 600 vierkante meter groot <br>
+  en heeft stairq ledgen en twee quarters</p>
+  <img src="kortrijk-luxaplast-4.jpg" alt=""width="400" height="250">
+     <br>
+     <br>
+     <table BORDER><tr><td> <h3 id="Trax"> Trax</h3></tr>  </td></table>     
+     <p>trax is een skatepark in Roeselare waar je buiten kan skaten maar aan de andere kant <br>
+       ook een overdekking zodat skaters tijdens natte dagen binnen kunnen skaten.</p>
+<img src="trax.jpg" alt=""width="450"height="250">
+
+<table BORDER><tr><td> <h3 id="OoDeeKay"> OoDeeKay</h3></tr>  </td></table>
+<p>Oodeekay is een skatepark in oostduinkerke,het is in beton aangelegd wat je <br>
+   soepel laat rijden en tricks laat doen </p>
+   <img src="odk.jpg" alt=""width=450 height="300">
+</main>
+
+<head><!DOCTYPE html>
+  <html lang="en">
+   
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content=
+          "width=device-width,
+          initial-scale=1.0" />
+   
+      <title>Digital Clock</title>
+   <!---CLOCK--->
+      <style>
+          #clock {
+              font-size: 15px;
+              width: 250px;
+              margin: 200px;
+              text-align: center;
+              border: 2px solid black;
+              border-radius: 20px;
+              float:right ;
+          }
+      </style>
+  </head>
+   
+  <body>
+      <div id="clock">8:10:45</div>
+   
+      <script>
+          setInterval(showTime, 1000);
+          function showTime() {
+              let time = new Date();
+              let hour = time.getHours();
+              let min = time.getMinutes();
+              let sec = time.getSeconds();
+              am_pm = "AM";
+   
+              if (hour > 12) {
+                  hour -= 12;
+                  am_pm = "PM";
+              }
+              if (hour == 0) {
+                  hr = 12;
+                  am_pm = "AM";
+              }
+   
+              hour = hour < 10 ? "0" + hour : hour;
+              min = min < 10 ? "0" + min : min;
+              sec = sec < 10 ? "0" + sec : sec;
+   
+              let currentTime = hour + ":"
+                  + min + ":" + sec + am_pm;
+   
+              document.getElementById("clock")
+                  .innerHTML = currentTime;
+          }
+   
+          showTime();
+      </script></head>
+</body>  
+</html>  

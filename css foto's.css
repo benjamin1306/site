@@ -1,0 +1,88 @@
+
+main{
+    width: 75%;
+    margin: 0 auto;
+   
+    
+} image
+{ background-color: black;
+    padding: 2px;
+    margin: 2px;
+border:black 0px;
+float: RIGHT;
+ }
+ /*skateparken.html*/
+ #skateparken{
+    font-size: 36px;
+    color: white;
+    background-color: black;
+}
+body {
+    background-color: lightgray;
+  }
+  
+/*letters*/
+body {
+color: black;
+  }   
+main{
+width: 70%;
+margin:0 auto
+  }
+  /*home*/
+  #skaters{
+    font-size: 36px;
+    color: white;
+    background-color: black;
+   }
+   img {padding: 15px; margin: 0px 1px 4px 0px;
+   }
+    #zweef{
+    float:LEFT;
+     }
+    p{
+   clear:both;
+   }
+   
+   
+   /*werkt ni*/
+   span:hover{
+    background-color: black;
+     color: white;
+     border-bottom: 0px;
+     border-top: 2px;
+   border-left: 2px;
+   border-right: 2px;
+   }
+   /*stances*/
+   #stances{
+    font-size: 36px;
+    color: white;
+    background-color: black;
+
+   }
+   /*pg1*/
+   #tricks{
+    font-size: 36px;
+    color: white;
+    background-color: black;
+}
+
+img{
+ background-color: black;
+ padding: 10px; 
+ margin: 0px 4px 4px 0px;
+float:central;
+}
+
+/*box?????*/
+
+main {
+width: 900px;
+border: 30px black;
+padding: 50px;
+margin: 20px;
+}
+
+ 
+ 

@@ -1,0 +1,113 @@
+ <html >  
+<head>  
+<title>standen</title>  
+</head>  
+<body>  
+<h1></h1>
+
+<style>
+    
+</style>
+ <!---navigatiebar-->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <div class="w3-bar w3-black">
+ <a href="Eindwerk home pagina.html" class="w3-bar-item w3-button">Home</a>
+ <a href="eindwerk 1ste pagina.html" class="w3-bar-item w3-button">basistricks en hun ontdekker</a>
+ <a href="eindwerk pagina stances.html" class="w3-bar-item w3-button">standen</a>
+ <a href="skateparken.html" class="w3-bar-item w3-button">skateparken</a>
+</div>    
+<br>
+<br>
+<br>
+<!---externe css--->
+<link rel="stylesheet" href="css foto's.css">
+
+
+
+<h1 id = "stances">De standen</h1>
+<body> <main>
+<table BORDER> <tr><td> <h3 id="regular en goofy"> regular en goofy</tr> </h3> </td></table>
+<p>De normale standen zijn regular en goofy. Iemand die regular skate staat met de linker voet vooraan. <br>
+mensen die goofy skaten staan met hun rechtervoet vooraan.</p> <img src="goofyvsregular.webp" alt="" width="300"height="200"></main>
+
+<br>
+<br>
+<br>
+<main>
+<table BORDER> <tr><td> <h3 id="fakie">Fakie</tr> </h3> </td></table>
+<p>Fakie betekent in het skateboarden achteruit rijden. als een skater zegt fakie kickflip of fakie ollie <br>
+dan wordt de trick gedaan zoals anders maar dan achteruit.</p>
+<br>
+<br>
+<br>
+<table BORDER> <tr><td> <h3 id="switch"> switch</tr> </h3> </td></table>
+<p>Als je een switch trick wilt doen dan moet je van stand veranderen, dus als je regular rijdt moet je in goofy gaan staan <br>
+en als je in goofy staat verander je naar regular. Het veranderen van stand is moeilijker dan het lijkt <br></p>
+<br>
+<br>
+<br>
+<table BORDER> <tr><td> <h3 id="nollie">nollie</tr> </h3> </td></table>
+<p>Nollie staat voor Nose ollie, het betekent dat je in plaats van op de tail op de nose van het skateboard moet poppen. <br>
+je kan meer tricks in nollie doen zoals de kickflip en de heelflip.</p>
+</main>
+<head><!DOCTYPE html>
+  <html lang="en">
+   
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content=
+          "width=device-width,
+          initial-scale=1.0" />
+   
+      <title>Digital Clock</title>
+   <!---CLOCK--->
+      <style>
+          #clock {
+              font-size: 15px;
+              width: 250px;
+              margin: 200px;
+              text-align: center;
+              border: 2px solid black;
+              border-radius: 20px;
+              float:right ;
+          }
+      </style>
+  </head>
+   
+  <body>
+      <div id="clock">8:10:45</div>
+   
+      <script>
+          setInterval(showTime, 1000);
+          function showTime() {
+              let time = new Date();
+              let hour = time.getHours();
+              let min = time.getMinutes();
+              let sec = time.getSeconds();
+              am_pm = "AM";
+   
+              if (hour > 12) {
+                  hour -= 12;
+                  am_pm = "PM";
+              }
+              if (hour == 0) {
+                  hr = 12;
+                  am_pm = "AM";
+              }
+   
+              hour = hour < 10 ? "0" + hour : hour;
+              min = min < 10 ? "0" + min : min;
+              sec = sec < 10 ? "0" + sec : sec;
+   
+              let currentTime = hour + ":"
+                  + min + ":" + sec + am_pm;
+   
+              document.getElementById("clock")
+                  .innerHTML = currentTime;
+          }
+   
+          showTime();
+      </script></head>
+</body>  
+</html>  

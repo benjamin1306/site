@@ -1,0 +1,112 @@
+<html >  
+    <title>Homepage</title> 
+    
+     
+     <style type="text/css">
+     
+        </style> 
+
+<head>
+<!---externe css--->
+<link rel="stylesheet" href="css foto's.css">
+</head>
+<style> 
+</style>
+<body>
+<span>
+  
+<!---nav.bar--->
+         <meta name="viewport" content="width=device-width, initial-scale=2" id="navigatiebalk">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <div class="w3-bar w3-black">
+         <a href="Eindwerk home pagina.html" class="w3-bar-item w3-button">Home</a>
+         <a href="eindwerk 1ste pagina.html" class="w3-bar-item w3-button">tricks en de ontdekker</a>
+        <a href="eindwerk pagina stances.html" class="w3-bar-item w3-button">standen</a>
+         <a href="skateparken.html" class="w3-bar-item w3-button">skateparken</a>
+          </div>
+        </span>
+        
+<br>
+<br>
+<br> <h1 id = "Skaters">Skaters en hun eigen tricks</h1>
+   <main>
+     <p> <b>
+       
+     </b></p>
+     <hr>
+
+    
+     <h2>De geschiedenis en het ontstaan van skateboarden</h2>
+     <p>Het skateboarden werd in de jaren 50 bedacht door surfers die hun surfvaardigheden ook op het land wilden uitproberen, <br>
+     ze monteerden wielen onder hun surfplank. <br><image src="skateboard1.jpeg" width="235" height="210" id = "zweef">
+     <main>  in de de vroege jaren 50 gerbuikten ze kortere surfplanken waaronder wielen van metaal waren gemonteerd.<br> In 1950 werd een nieuw soort skateboard ontwikkeld door roller derby
+     het maaktte het skaten wat makkelijker waardoor er ook nieuwe tricks werden ontdekt.  </p>
+     </main>
+    <p> Na het eerste skateboard veranderde alles. De skateboards verbeterden er werden nieuwe tricks uitgevonden. <br>
+         In 1963 werd de eerste skate contest gehouden in Hermosa Beach, Californië waar de skaters hun vaardigheden konden tonen. <br>
+        er werden sinds dan ook teams samen gesteld die werden gesponserd.  </p>
+        <!DOCTYPE html>
+        <html lang="en">
+         
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content=
+                "width=device-width,
+                initial-scale=1.0" />
+         
+            <title>Digital Clock</title>
+         <!---CLOCK--->
+            <style>
+                #clock {
+                    font-size: 15px;
+                    width: 250px;
+                    margin: 200px;
+                    text-align: center;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    float:right ;
+                }
+            </style>
+        </head>
+         
+        <body>
+            <div id="clock">8:10:45</div>
+         
+            <script>
+                setInterval(showTime, 1000);
+                function showTime() {
+                    let time = new Date();
+                    let hour = time.getHours();
+                    let min = time.getMinutes();
+                    let sec = time.getSeconds();
+                    am_pm = "AM";
+         
+                    if (hour > 12) {
+                        hour -= 12;
+                        am_pm = "PM";
+                    }
+                    if (hour == 0) {
+                        hr = 12;
+                        am_pm = "AM";
+                    }
+         
+                    hour = hour < 10 ? "0" + hour : hour;
+                    min = min < 10 ? "0" + min : min;
+                    sec = sec < 10 ? "0" + sec : sec;
+         
+                    let currentTime = hour + ":"
+                        + min + ":" + sec + am_pm;
+         
+                    document.getElementById("clock")
+                        .innerHTML = currentTime;
+                }
+         
+                showTime();
+            </script>
+        </body>
+
+
+    </main> 
+    
+    </body>  
+    </html>  
